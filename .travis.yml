@@ -1,1 +1,6 @@
 language: java
+after_success:
+- curl --ftp-create-dirs
+       -T index.html
+       --key /tmp/sftp_rsa
+       sftp://${FTPUSER}:${FTPPASSWORD}@${FTPENDPOINT}\
