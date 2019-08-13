@@ -1,4 +1,4 @@
-language: java
+language: node_js
 after_success:
 - curl --ftp-create-dirs
        -T index.html
