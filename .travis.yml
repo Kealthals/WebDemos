@@ -4,4 +4,4 @@ script:
 after_success:
 - curl --ftp-create-dirs
        -T index.html
-       ftp://${FTPUSER}:${FTPPASSWORD}@${FTPENDPOINT}
+       sftp://${FTPUSER}:${FTPPASSWORD}@${FTPENDPOINT}
