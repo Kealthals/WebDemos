@@ -1,7 +1,1 @@
-env:
-    global:
-  - 'SFTP_USER=[FTPUSER]'
-  - 'SFTP_PASSWORD=[FTPPASSWORD]'
-  - 'SFTP_URL=[FTPENDPOINT]'
- language: javascript
- 
+language: java
